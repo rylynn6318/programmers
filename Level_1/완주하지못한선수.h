@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <map>
+
 using namespace std;
 
 string solution(vector<string> participant, vector<string> completion) {
