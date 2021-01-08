@@ -350,7 +350,8 @@ MigrationBackup/
 .ionide/
 
 # user add
+main.cpp
 *.sln
-*.vcxproj
-*.vcxproj.*
-/main.cpp
+*.vcxproj*
+
+
