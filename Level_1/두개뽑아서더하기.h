@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -15,5 +16,6 @@ vector<int> solution(vector<int> numbers) {
     }
     sort(answer.begin(), answer.end());
     answer.erase(unique(answer.begin(), answer.end()), answer.end());
+    cout << "테스트";
     return answer;
 }
