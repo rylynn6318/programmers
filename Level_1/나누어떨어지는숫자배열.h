@@ -1,15 +1,17 @@
+#pragma once
 #include <string>
 #include <vector>
-
+#include <algorithm>
 using namespace std;
 
-long long solution(int a, int b) {
-    long long answer = 0;
-    if (a == b) return a;
-    int min = std::min(a, b);
-    int max = std::max(a, b);
-    while (min<=max)    
-        answer += min++;
-    
+vector<int> solution(vector<int> arr, int divisor) {
+    vector<int> answer;
+    for (auto a : arr)
+    {
+        if (a % divisor == 0)
+            answer.push_back(a);
+    }
+    if (answer.empty()) return { -1 };
+    std::sort(answer.begin(), answer.end());
     return answer;
 }
