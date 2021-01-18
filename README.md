@@ -3,4 +3,4 @@
 > https://programmers.co.kr/
 
 모던 C++ 챌린지 문제풀이
-> http://www.yes24.com/Product/Goods/90114524
+> http://www.acornpub.co.kr/book/modern-cplus-challenge
