@@ -353,5 +353,5 @@ MigrationBackup/
 main.cpp
 *.sln
 *.vcxproj*
-
+out
 
