@@ -354,4 +354,4 @@ main.cpp
 *.sln
 *.vcxproj*
 out
-
+.idea
