@@ -4,6 +4,7 @@ project(algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(Programmers_Level_1)
+include_directories(Programmers_Level_2)
 
 add_executable(algorithm
         main.cpp)
