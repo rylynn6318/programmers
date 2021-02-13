@@ -14,7 +14,7 @@ auto moveTruck(vector<int>& bridge)->void
     }
     bridge[bridge.size() - 1] = 0;
 }
-//다리를 지나는 트럭
+
 int solution(int bridge_length, int weight, vector<int> truck_weights) {
     int answer = 0;
     int now = 0;
