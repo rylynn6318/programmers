@@ -7,4 +7,7 @@ include_directories(Programmers_Level_1)
 include_directories(Programmers_Level_2)
 
 add_executable(algorithm
-        main.cpp)
+        main.cpp 
+        Programmers_Level_1
+        Programmers_Level_2
+        )
